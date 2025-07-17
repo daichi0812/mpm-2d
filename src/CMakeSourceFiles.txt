@@ -1,0 +1,47 @@
+set( Sources
+  ./basisfunction.cpp
+  ./constitutivemodel.cpp
+  ./draw.cpp
+  ./main.cpp
+  ./mpm.cpp
+  ./signeddistancefield.cpp
+  ./simulator.cpp
+  ./usermanipulation.cpp
+  ./xmlparser.cpp
+  ./RigidBody2DData.cpp
+  ./ShapeTemplate2D.cpp
+  ./CircleTemplate2D.cpp
+  ./PolygonTemplate2D.cpp
+  ./signeddistance2d.cpp
+)
+
+set( Headers
+  ./basisfunction.h
+  ./constitutivemodel.h
+  ./draw.h
+  ./endianutil.h
+  ./grid.h
+  ./image.h
+  ./imageiobmp.h
+  ./imageiohdr.h
+  ./imageioutil.h
+  ./materialpoints.h
+  ./mpm.h
+  ./signeddistancefield.h
+  ./simulator.h
+  ./timer.h
+  ./usermanipulation.h
+  ./window.h
+  ./xmlparser.h
+  ./CompileDefinitions.h
+  ./HDF5io.h
+  ./RigidBody2DData.h
+  ./constants.h
+  ./collisionsample2d.h
+  ./DiscreteElement2D.h
+  ./ShapeTemplate2D.h
+  ./CircleTemplate2D.h
+  ./PolygonTemplate2D.h
+  ./signeddistance2d.h
+  ./ForceData2D.h
+)
